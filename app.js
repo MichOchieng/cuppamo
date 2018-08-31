@@ -10,7 +10,8 @@ var express     = require("express"),
     
     
 // route files
-var homepageRoutes = require("./routes/homepage");
+var homepageRoutes = require("./routes/index"),
+    loginRoutes = require("./routes/login");
     
 mongoose.connect("mongodb://localhost:27017/cuppamo", { useNewUrlParser: true });
 app.set("view engine", "ejs");
@@ -18,12 +19,9 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 
-
-app.use(bodyParser.urlencoded({extended: true}));
-app.set("view engine", "ejs");
-
-
 app.use("/", homepageRoutes);
+app.use("/login", loginRoutes);
+
     // use route files
 app.use(homepageRoutes);
     
@@ -31,3 +29,5 @@ app.use(homepageRoutes);
     // body...
     console.log("CuppaMo started");
 });
+
+module.exports = app;
