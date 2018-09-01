@@ -11,7 +11,10 @@ var express     = require("express"),
     
 // route files
 var homepageRoutes = require("./routes/index"),
-    loginRoutes = require("./routes/login");
+    loginRoutes    = require("./routes/login"),
+    signupRoutes   = require("./routes/signup"),
+    aboutRoutes    = require("./routes/about"),
+    contactRoute   = require("./routes/contact");
     
 mongoose.connect("mongodb://localhost:27017/cuppamo", { useNewUrlParser: true });
 app.set("view engine", "ejs");
@@ -21,6 +24,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use("/", homepageRoutes);
 app.use("/login", loginRoutes);
+app.use("/signup", signupRoutes);
+app.use("/about", aboutRoutes);
+app.use("/contact", contactRoute);
 
     // use route files
 app.use(homepageRoutes);

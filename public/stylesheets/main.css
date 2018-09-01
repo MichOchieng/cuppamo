@@ -1,3 +1,74 @@
+/*nav bar styles*/
 #nav {
     margin: 0 10% 0 10%;
+}
+
+/*login/sign up styling*/
+#email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#user{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+/*border: 1px solid #000000;*/
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#pass {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+/*border: 1px solid #000000;*/
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#mainbox {
+    background-color: #F8F8F6;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 30px;
+    /* Rectangle 2 */
+}
+
+#submit {
+    /* Rectangle 3 */
+background: #000000;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-bottom: 5px;
+
+}
+
+.signhead {
+    /* Join CuppaMo */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+
+text-align: center;
+
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.signlink {
+    /* Already have an account? Click here! */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+text-align: center;
+
+color: #000000;
+
 }
