@@ -72,3 +72,82 @@ text-align: center;
 color: #000000;
 
 }
+
+/*about page*/
+
+#aboutbox {
+    /* Rectangle */
+
+position: absolute;
+width: 1083px;
+height: 254px;
+left: 178px;
+top: 258px;
+
+background: #F8F8F6;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#abouthead {
+    text-align: center;
+    
+    /* About us */
+
+position: absolute;
+width: 436px;
+height: 51px;
+left: 501px;
+top: 168px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+font-size: 36px;
+text-align: center;
+
+color: #000000;
+
+}
+
+#aboutpar {
+    text-align: center;
+}
+
+/*contact*/
+
+#contactbox{
+    /* Rectangle */
+
+position: absolute;
+width: 1080px;
+height: 503px;
+left: 225px;
+top: 160px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+#contacthead {
+    /* Get in touch with us */
+font-family: Montserrat;
+font-weight: 200;
+line-height: normal;
+font-size: 36px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/*images*/
+
+.image {
+    
+}
