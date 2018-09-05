@@ -13,6 +13,11 @@ router.get("/login", function(req, res){
    res.render("login"); 
 });
 
+// signup
+router.get("/signup", function(req, res){
+   res.render("signup"); 
+});
+
 // show about page
 router.get("/about", function(req, res){
    res.render("about"); 
