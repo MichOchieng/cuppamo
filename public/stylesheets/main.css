@@ -113,6 +113,7 @@ color: #000000;
 
 #aboutpar {
     text-align: center;
+    top: 50px;
 }
 
 /*contact*/
@@ -146,8 +147,8 @@ color: #000000;
 
 }
 
-/*images*/
+/*===========GRID============*/
 
-.image {
-    
+.ui.padded{
+    padding-top: 30px;
 }
